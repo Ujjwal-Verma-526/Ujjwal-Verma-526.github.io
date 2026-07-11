@@ -253,6 +253,11 @@ main { padding: 0 clamp(1.25rem, 5vw, 3rem); }
   color: var(--accent);
 }
 
+.card__links {
+  display: flex;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+}
 .card__links a {
   font-weight: 600;
   font-size: 0.9rem;
