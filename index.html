@@ -1,165 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ujjwal Verma — Portfolio</title>
-<meta name="description" content="Ujjwal Verma — Mechanical Engineering student at DTU, building towards simulation engineering." />
-
-<!-- ============================================================
-  QUICK-EDIT GUIDE
-  1. Photo: replace the .photo div with <img src="profile.jpg" alt="Ujjwal Verma">
-     (drop profile.jpg in this same folder first).
-  2. Add more <article class="card"> blocks in PROJECTS as you build things.
-  3. CURRENTLY section: update the list as your focus shifts.
-  4. Colors/fonts live at the top of styles.css as CSS variables.
-=============================================================== -->
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-
-<a class="skip-link" href="#top">Skip to content</a>
-
-<header class="nav" id="nav">
-  <a class="nav__mark" href="#top">UV</a>
-  <nav class="nav__links" aria-label="Primary">
-    <a href="#about">About</a>
-    <a href="#work">Projects</a>
-    <a href="#currently">Currently</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
-<main id="top">
-
-  <!-- HERO -->
-  <section class="hero">
-    <img class="photo" src="profile.png" alt="Ujjwal Verma">
-
-    <h1 class="hero__title">Ujjwal Verma</h1>
-    <p class="hero__tagline">Mechanical Engineering Student @ DTU '29</p>
-    <p class="hero__sub">Building towards simulation engineering.</p>
-    <p class="hero__stack">C · Python · C++ · MATLAB · CAD/CAM</p>
-
-    <div class="hero__actions">
-      <a class="btn btn--primary" href="mailto:vermaujjwal526@gmail.com">Say hello</a>
-      <a class="btn btn--ghost" href="https://github.com/Ujjwal-Verma-526" target="_blank" rel="noopener">GitHub</a>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section class="section" id="about">
-    <h2 class="section__title">About</h2>
-    <p class="about__text">
-      I'm a Mechanical Engineering student at Delhi Technological University (Class of '29),
-      working toward simulation engineering — the intersection of mechanical systems and the
-      code that models them. I'm building my foundation in C, C++, Python, and MATLAB alongside
-      CAD/CAM, and I like learning by building things end to end rather than just studying theory.
-      On the side, I've been shipping full React marketing sites for local restaurants —
-      four so far, each with its own reservation flow and custom animation work.
-    </p>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="section" id="work">
-    <h2 class="section__title">Projects</h2>
-
-    <div class="projects">
-      <article class="card">
-        <h3>The South Cafe</h3>
-        <p>Marketing site for a Connaught Place café — full itemized menu, reservation flow, and legal pages.</p>
-        <div class="tags">
-          <span>React</span><span>Vite</span><span>Tailwind CSS</span><span>GSAP</span>
-        </div>
-        <div class="card__links">
-          <a href="https://thesouthcafe.vercel.app" target="_blank" rel="noopener">Live site →</a>
-          <a href="https://github.com/Ujjwal-Verma-526/TheSOUTHCAFE" target="_blank" rel="noopener">View code →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Bheemeshwara</h3>
-        <p>Editorial-style site for a South Indian restaurant — magazine-cover hero, an interactive "Five States" radial wheel, a 110-item accordion menu, and a 4-step conversational reservation wizard.</p>
-        <div class="tags">
-          <span>React</span><span>Vite</span><span>Tailwind CSS</span><span>GSAP</span>
-        </div>
-        <div class="card__links">
-          <a href="https://bheemeshwara-rnao.vercel.app" target="_blank" rel="noopener">Live site →</a>
-          <a href="https://github.com/Ujjwal-Verma-526/Bheemeshwara" target="_blank" rel="noopener">View code →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Andhra House</h3>
-        <p>Marketing site for an Andhra cuisine restaurant — a regional "taste journey" narrative, spice-level meter, and a full menu organized by the 8 regions of Andhra Pradesh.</p>
-        <div class="tags">
-          <span>React</span><span>Vite</span><span>Tailwind CSS</span><span>GSAP</span>
-        </div>
-        <div class="card__links">
-          <a href="https://ap-house.vercel.app" target="_blank" rel="noopener">Live site →</a>
-          <a href="https://github.com/Ujjwal-Verma-526/AP-house" target="_blank" rel="noopener">View code →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Dosa Coffee</h3>
-        <p>Marketing site for a South Indian dosa &amp; filter coffee spot — home, menu, and reservation pages with a stats and how-a-visit-works section.</p>
-        <div class="tags">
-          <span>React</span><span>Vite</span><span>Tailwind CSS</span><span>GSAP</span>
-        </div>
-        <div class="card__links">
-          <a href="https://dosa-coffee.vercel.app" target="_blank" rel="noopener">Live site →</a>
-          <a href="https://github.com/Ujjwal-Verma-526/DosaCoffee" target="_blank" rel="noopener">View code →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>This Portfolio</h3>
-        <p>The site you're on — designed and built from scratch and deployed on GitHub Pages.</p>
-        <div class="tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span>
-        </div>
-        <div class="card__links">
-          <a href="https://github.com/Ujjwal-Verma-526/Ujjwal-Verma-526.github.io" target="_blank" rel="noopener">View code →</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- CURRENTLY -->
-  <section class="section" id="currently">
-    <h2 class="section__title">Currently</h2>
-    <ul class="currently">
-      <li>Building a foundation in simulation engineering — FEA &amp; CFD basics</li>
-      <li>Sharpening C++ and Python for engineering applications</li>
-      <li>Practicing CAD/CAM fundamentals</li>
-    </ul>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="section section--contact" id="contact">
-    <h2 class="section__title">Get in touch</h2>
-    <p class="contact__lead">Open to internships and collaborations — I usually reply within a day or two.</p>
-
-    <a class="btn btn--primary btn--lg" href="mailto:vermaujjwal526@gmail.com">vermaujjwal526@gmail.com</a>
-
-    <div class="contact__links">
-      <a href="https://www.linkedin.com/in/ujjwal-verma-319426381/" target="_blank" rel="noopener">LinkedIn ↗</a>
-      <a href="https://github.com/Ujjwal-Verma-526" target="_blank" rel="noopener">GitHub ↗</a>
-    </div>
-  </section>
-
-</main>
-
-<footer class="footer">
-  <span>© 2026 Ujjwal Verma</span>
-  <a href="#top">Back to top ↑</a>
-</footer>
-
-<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ujjwal Verma — Mechanical Engineering student at DTU, building toward simulation engineering." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ujjwal Verma</title>
+    <script type="module" crossorigin src="/assets/index-Dfp6QsMS.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CLxUsnYU.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
