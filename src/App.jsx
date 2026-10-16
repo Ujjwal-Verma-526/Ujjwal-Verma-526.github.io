@@ -28,6 +28,7 @@ const NOW = [
   'Working through FEA & CFD fundamentals',
   'Sharpening C++ and Python for simulation work',
   'Building an ME-domain chatbot — FastAPI backend, deploying to Vercel',
+        'Piloting Sabha with DTU societies',
 ];
 
 const PROJECTS = [
@@ -66,6 +67,13 @@ const PROJECTS = [
     live: 'https://dosa-coffee.vercel.app',
     repo: 'https://github.com/Ujjwal-Verma-526/DosaCoffee',
   },
+       {
+       name: 'Sabha',
+       role: 'Campus events platform · DTU',
+       desc: 'Every DTU event in one feed: one-tap registration, QR tickets and door check-in that catches duplicates. Next.js + Supabase with row-level security.',
+       live: 'https://sabha-dtu.vercel.app',
+       repo: 'https://github.com/Ujjwal-Verma-526/sabha-dtu',
+     },
 ];
 
 function useReveal(selector) {
@@ -183,7 +191,8 @@ function About() {
         that models them. I&apos;m building my foundation in C, C++, Python,
         and MATLAB alongside CAD/CAM, and I like learning by building things
         end to end rather than just studying theory. On the side, I&apos;ve
-        shipped a full gym-management SaaS and four React marketing sites
+                     built Sabha, an events platform for DTU societies, plus a
+            gym-management SaaS and four React marketing sites
         for local restaurants, each with its own reservation flow and
         custom animation work.
       </p>
